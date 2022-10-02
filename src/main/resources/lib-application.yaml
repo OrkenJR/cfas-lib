@@ -1,0 +1,4 @@
+feign:
+  path:
+    auth-service:
+      /auth
