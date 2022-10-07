@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(value = "auth-service", path = "${feign.path.auth-service}")
+@FeignClient(value = "auth-service", path = "/auth")
 @Service
 public interface AuthFeign {
 

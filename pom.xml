@@ -10,7 +10,7 @@
     </parent>
     <groupId>kz.iitu</groupId>
     <artifactId>cfas-lib</artifactId>
-    <version>1.0.2-DEV</version>
+    <version>1.0.0</version>
     <name>cfas-lib</name>
     <description>cfas-lib</description>
     <properties>
@@ -68,8 +68,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>17</source>
-                    <target>17</target>
+                    <source>16</source>
+                    <target>16</target>
                 </configuration>
             </plugin>
         </plugins>
