@@ -2,7 +2,10 @@ package kz.iitu.cfaslib.util;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
+
+import static kz.iitu.cfaslib.util.CfasConstants.BEARER_PREFIX;
 
 public class SecureUtil {
 
@@ -19,6 +22,11 @@ public class SecureUtil {
                 .map(x -> (char) ((int) x))
                 .map(Object::toString)
                 .collect(Collectors.joining());
+    }
+
+    public static String stripToken(String token) {
+        return (!Objects.isNull(token) && token.startsWith(BEARER_PREFIX)) ?
+                token.substring(7) : null;
     }
 
     private static List<Integer> decodeThirdRound(List<Integer> encoded) {
