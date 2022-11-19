@@ -10,7 +10,7 @@
     </parent>
     <groupId>kz.iitu</groupId>
     <artifactId>cfas-lib</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <name>cfas-lib</name>
     <description>cfas-lib</description>
     <properties>
