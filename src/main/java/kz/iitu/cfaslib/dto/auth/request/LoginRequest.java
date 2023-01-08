@@ -1,4 +1,4 @@
-package kz.iitu.cfaslib.dto;
+package kz.iitu.cfaslib.dto.auth.request;
 
 import lombok.Data;
 

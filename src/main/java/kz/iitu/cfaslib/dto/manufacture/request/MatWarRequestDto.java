@@ -1,4 +1,4 @@
-package kz.iitu.cfaslib.dto.request;
+package kz.iitu.cfaslib.dto.manufacture.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

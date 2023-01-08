@@ -1,6 +1,6 @@
 package kz.iitu.cfaslib.feign;
 
-import kz.iitu.cfaslib.dto.UserDto;
+import kz.iitu.cfaslib.dto.user.UserDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

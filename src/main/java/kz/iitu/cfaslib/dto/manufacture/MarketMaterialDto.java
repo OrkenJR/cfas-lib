@@ -1,4 +1,4 @@
-package kz.iitu.cfaslib.dto.request;
+package kz.iitu.cfaslib.dto.manufacture;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * DTO для фильтра market
+ * DTO для market
  *
  * @author Orken
  **/
@@ -14,12 +14,12 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class MarketFilterRequestDto {
+public class MarketMaterialDto {
+    private String id;
+
     private String name;
 
-    private Double min;
-
-    private Double max;
+    private Double price;
 
     private String icon;
 

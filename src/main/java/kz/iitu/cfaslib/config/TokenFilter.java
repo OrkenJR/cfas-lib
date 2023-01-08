@@ -1,6 +1,6 @@
 package kz.iitu.cfaslib.config;
 
-import kz.iitu.cfaslib.dto.TokenDto;
+import kz.iitu.cfaslib.dto.auth.TokenDto;
 import kz.iitu.cfaslib.util.CurrentUserHolder;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

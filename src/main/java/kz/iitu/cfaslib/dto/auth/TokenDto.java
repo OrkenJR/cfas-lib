@@ -1,4 +1,4 @@
-package kz.iitu.cfaslib.dto;
+package kz.iitu.cfaslib.dto.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
