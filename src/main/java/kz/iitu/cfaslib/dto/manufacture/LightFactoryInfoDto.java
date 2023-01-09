@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class FactoryInfoDto {
+public class LightFactoryInfoDto {
     private String id;
 
     private String name;
@@ -22,12 +22,4 @@ public class FactoryInfoDto {
     private Integer number;
 
     private String director;
-
-    private Integer workersCount;
-
-    private Integer departmentCount;
-
-    private Integer year;
-
-    private GeoPointDto geoPoint;
 }
